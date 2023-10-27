@@ -1,0 +1,45 @@
+# Diretórios e arquivos relacionados ao Maven e Gradle
+.gradle/
+build/
+out/
+target/
+
+# Mantenha o arquivo Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Mantenha os diretórios build em src/main e src/test
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Arquivos e diretórios relacionados ao IntelliJ IDEA
+.idea/
+.idea_modules/
+*.iws
+*.iml
+*.ipr
+.idea/libraries/
+
+# Arquivos e diretórios relacionados ao Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Arquivos e diretórios relacionados ao NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Arquivos e diretórios relacionados ao Visual Studio Code
+.vscode/
+
+# Arquivos do Mac OS
+.DS_Store
